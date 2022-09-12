@@ -1,0 +1,189 @@
+a:4:{s:8:"template";s:7:"omnivus";s:4:"mods";a:3:{i:0;b:0;s:18:"nav_menu_locations";a:1:{s:8:"mainmenu";i:30;}s:18:"custom_css_post_id";i:644;}s:7:"options";a:2:{s:9:"site_icon";s:4:"2022";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:3713:"/*===============
+ * Home v1
+ * TechBird
+===============*/
+.banner-section {
+	overflow: hidden;
+}
+.banner-section .banner-img {
+    position: absolute;
+    right: -70px;
+    bottom: -222px;
+    height: 630px;
+    width: 630px;
+    background: #f3faff;
+    border-radius: 50%;
+    border: 60px solid #ebf4ff;
+    z-index: 1;
+}
+.banner-section .banner-img::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: -1;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.banner-section .banner-img img {
+    position: absolute;
+    top: -135px;
+    left: 0;
+}
+.about-thumb {
+    position: relative;
+    z-index: 5;
+}
+.about-thumb::before {
+    position: absolute;
+    content: "";
+    height: 630px;
+    width: 630px;
+    border: 120px solid #0c59db;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: #fff;
+    z-index: -1;
+    left: -200px;
+    top: 40px;
+}
+.about-experience h3::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 30px solid #0c59db;
+    border-right: 30px solid transparent;
+    left: -48px;
+    top: 23px;
+}
+
+.contact-form .input-group {
+    display: block;
+    margin-bottom: 30px;
+}
+.contact-form .input-group input{
+		height: 70px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+		border-radius:0px !important;
+}
+.contact-form .input-group textarea{
+	height:170px;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+		border-radius:0px !important;
+}
+.contact-form .input-group span{
+	position: absolute;
+	right: 30px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	color: #81a3bb;
+	height: 70px;
+	line-height: 70px;
+}
+.contact-form .input-group.textarea-group span{
+	bottom: inherit;
+}
+.contact-form input.main-btn {
+    background: #0c59db;
+	border: 0;
+	font-family: "Karla, sans-serif";
+	color: #fff;
+	font-size: 15px;
+	height: 59px;
+	font-weight:700;
+}
+.contact-form input.main-btn:hover{
+	background: #0d2249;
+	color: #fff;
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.mainmenu-area-bg {
+			background: none;
+	}
+	.banner-section .banner-img {
+		right: 0px;
+    bottom: -220px;
+    height: 400px;
+    width: 400px;
+}
+.banner-section .banner-img::before {
+    height: 200px;
+    width: 200px;
+}
+	.about-thumb::before {
+    height: 400px;
+    width: 400px;
+    border: 95px solid #0c59db;
+    left: -100px;
+    top: 50px;
+}
+}
+@media (max-width: 767px){
+	.about-thumb::before {
+    height: 0;
+    width: 0;
+    border: 0 solid #0c59db;
+}
+	.about-experience h3::before {
+    border-top: 0 solid #0c59db;
+    border-right: 0 solid transparent;
+}
+
+}
+/*===============
+ * Home v1
+ * TechBird
+===============*/
+/*===============
+ * Common
+ * TechBird
+===============*/
+.intro-thumb::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 400px solid #0c59db;
+    border-left: 400px solid transparent;
+    right: -20px;
+    bottom: -20px;
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.intro-thumb::before {
+    border-bottom: 0 solid #0c59db;
+    border-left: 0 solid transparent;
+		right:0;
+}
+}
+@media (max-width: 767px){
+	.intro-thumb::before {
+    border-bottom: 0 solid #0c59db;
+    border-left: 0 solid transparent;
+}
+}
+/*===============
+ * Common
+ * TechBird
+===============*/
+/*===============
+ * About
+ * TechBird
+===============*/
+.about-page.intro-thumb::before {
+    border-left:0px;
+    border-right: 400px solid transparent;
+    left: -15px;
+}
+.overflow {
+	overflow: hidden;
+}";}

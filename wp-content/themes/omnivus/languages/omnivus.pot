@@ -1,0 +1,1630 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: omnivus\n"
+"POT-Creation-Date: 2020-07-17 17:22+0600\n"
+"PO-Revision-Date: 2018-09-23 14:48+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html__e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/custom-functions.php:352 inc/custom-functions.php:356
+#: inc/custom-functions.php:360 inc/custom-functions.php:364
+#: inc/custom-functions.php:368 inc/custom-functions.php:372
+#: inc/custom-functions.php:376 inc/custom-functions.php:380
+#: inc/custom-functions.php:384 inc/custom-functions.php:388
+#: inc/custom-functions.php:392 inc/custom-functions.php:396
+#: inc/custom-functions.php:400 inc/custom-functions.php:404
+#: inc/custom-functions.php:408 inc/custom-functions.php:412
+#: inc/custom-functions.php:416 inc/custom-functions.php:420
+#: inc/custom-functions.php:424 inc/custom-functions.php:428
+#: inc/custom-functions.php:432 inc/custom-functions.php:436
+#: inc/custom-functions.php:440 inc/custom-functions.php:444
+#: inc/custom-functions.php:448 inc/custom-functions.php:452
+msgid "preloader"
+msgstr ""
+
+#: inc/custom-functions.php:631
+#, php-format
+msgid "Copyright 2020 %s All Right Reserved"
+msgstr ""
+
+#: inc/custom-functions.php:769
+msgid "Your Name *"
+msgstr ""
+
+#: inc/custom-functions.php:772
+msgid "Your Email *"
+msgstr ""
+
+#: inc/custom-functions.php:779
+msgid "Your Website"
+msgstr ""
+
+#: inc/custom-functions.php:799
+msgid "Leave A Comment"
+msgstr ""
+
+#: inc/custom-functions.php:801
+msgid "Your Comment"
+msgstr ""
+
+#: inc/custom-functions.php:804
+msgid "Post Comment"
+msgstr ""
+
+#: inc/custom-functions.php:827 inc/custom-functions.php:856
+#, php-format
+msgid "%1s"
+msgstr ""
+
+#: inc/custom-functions.php:834
+msgid "Edit Comment"
+msgstr ""
+
+#: inc/custom-functions.php:871
+msgid "Reply"
+msgstr ""
+
+#: inc/custom-functions.php:930
+msgid "Older posts"
+msgstr ""
+
+#: inc/custom-functions.php:931
+msgid "Newer posts"
+msgstr ""
+
+#: inc/custom-functions.php:943
+msgid "Prev Post"
+msgstr ""
+
+#: inc/custom-functions.php:944
+msgid "Next Post"
+msgstr ""
+
+#: inc/custom-functions.php:1019
+msgid "Older Comments"
+msgstr ""
+
+#: inc/custom-functions.php:1020
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/custom-functions.php:1081
+msgid "Pages:"
+msgstr ""
+
+#: inc/custom-functions.php:1085
+msgid "Next Page"
+msgstr ""
+
+#: inc/custom-functions.php:1086
+msgid "Prev Page"
+msgstr ""
+
+#: inc/custom-functions.php:1099
+msgid "Search ..."
+msgstr ""
+
+#: inc/custom-functions.php:1120
+msgid "Enter here your search query"
+msgstr ""
+
+#: inc/custom-functions.php:1136
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: inc/custom-functions.php:1137
+msgid "Enter Password"
+msgstr ""
+
+#: inc/custom-functions.php:1138
+msgid "Submit"
+msgstr ""
+
+#: inc/custom-functions.php:1197 inc/template-tags.php:130
+#: inc/template-tags.php:180
+msgid "No comment"
+msgstr ""
+
+#: inc/custom-functions.php:1199
+msgid "One comment"
+msgstr ""
+
+#: inc/custom-functions.php:1201
+msgid " Comments"
+msgstr ""
+
+#: inc/importer.php:14 inc/importer.php:23 inc/importer.php:32
+#: inc/importer.php:41
+msgid "Make sure all the required plugins are activated."
+msgstr ""
+
+#: inc/required-plugins.php:65
+msgid "Omnivus Core"
+msgstr ""
+
+#: inc/required-plugins.php:71
+msgid "Social Heart Counts"
+msgstr ""
+
+#: inc/required-plugins.php:77
+msgid "Ultimate Adddon"
+msgstr ""
+
+#: inc/required-plugins.php:83
+msgid "CMB2"
+msgstr ""
+
+#: inc/required-plugins.php:88
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: inc/required-plugins.php:93
+msgid "Classic Editor"
+msgstr ""
+
+#: inc/required-plugins.php:98
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/required-plugins.php:103
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/required-plugins.php:108
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: inc/required-plugins.php:113
+msgid "Gtranslate"
+msgstr ""
+
+#: inc/setup.php:38 lib/metabox-and-theme-option.php:470
+msgid "Main Menu"
+msgstr ""
+
+#: inc/setup.php:43
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/template-tags.php:74 inc/template-tags.php:83
+msgid "Read More"
+msgstr ""
+
+#: inc/template-tags.php:130 inc/template-tags.php:180
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:130 inc/template-tags.php:180
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:163 inc/template-tags.php:234
+#: inc/template-tags.php:258 inc/template-tags.php:463
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:248 inc/template-tags.php:489
+msgid " By "
+msgstr ""
+
+#: inc/template-tags.php:250 inc/template-tags.php:432
+#: inc/template-tags.php:445
+msgid "ago"
+msgstr ""
+
+#: inc/template-tags.php:291 inc/template-tags.php:293
+msgid "Tags:"
+msgstr ""
+
+#: inc/template-tags.php:291 inc/template-tags.php:293
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/template-tags.php:300
+msgid "Share:"
+msgstr ""
+
+#: inc/template-tags.php:358
+msgid "0 View"
+msgstr ""
+
+#: inc/template-tags.php:360
+msgid " Views"
+msgstr ""
+
+#: inc/template-tags.php:372
+msgid "Views"
+msgstr ""
+
+#: inc/template-tags.php:394
+msgid "0"
+msgstr ""
+
+#: inc/template-tags.php:394
+msgid "1"
+msgstr ""
+
+#: inc/template-tags.php:394
+msgid "%"
+msgstr ""
+
+#: inc/template-tags.php:532
+msgid "Category: "
+msgstr ""
+
+#: inc/widgets.php:9
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/widgets.php:11 inc/widgets.php:21
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widgets.php:19
+msgid "Header Sidebar"
+msgstr ""
+
+#: inc/widgets.php:29
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: inc/widgets.php:31 inc/widgets.php:40 inc/widgets.php:49 inc/widgets.php:58
+msgid "Add footer widgets here."
+msgstr ""
+
+#: inc/widgets.php:38
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: inc/widgets.php:47
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: inc/widgets.php:56
+msgid "Footer Sidebar 4"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:393
+#: lib/class-tgm-plugin-activation.php:912
+#: lib/class-tgm-plugin-activation.php:2618
+#: lib/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:394
+#: lib/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1019
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3594
+#: lib/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3594
+#: lib/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:41
+msgid "Page Options"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:51
+msgid "Page Header Option"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:57
+msgid "Enable Barner"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:58
+msgid ""
+"If you want to show or hide page barner you can set here by toggle ( YES / "
+"NO )."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:64
+msgid "Enable Custom Title"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:65
+msgid "If you need custom page title you can set here."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:72
+msgid "Custom Page Title"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:73
+msgid "Set your preferred custom page title."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:80
+msgid "Enable Custom Overlay"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:87
+msgid "Barner Overlay"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:88
+msgid "Use a transparen image if you don't want use image you can set color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:102 lib/metabox-and-theme-option.php:266
+#: lib/metabox-and-theme-option.php:1266
+msgid "Overlay Opacity"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:103
+msgid "Please use max value 90 in decimel. and minimum value 0.1"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:116
+msgid "Topbar & Main Menu"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:122
+msgid "Menu Custom Style ?"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:123
+msgid ""
+"If you want to change any header style you can check here it will be appear "
+"on this page."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:129 lib/metabox-and-theme-option.php:557
+msgid "Menu Container Width"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:130 lib/metabox-and-theme-option.php:558
+msgid "Set the menu with form here you can set ( FULLWIDTH / CONTAINER )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:132 lib/metabox-and-theme-option.php:560
+msgid "Container"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:133 lib/metabox-and-theme-option.php:561
+msgid "Container Full Width"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:134 lib/metabox-and-theme-option.php:562
+msgid "Full Width"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:142 lib/metabox-and-theme-option.php:569
+msgid "Menu Text Align"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:143 lib/metabox-and-theme-option.php:570
+msgid "Set the menu text align from here"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:155 lib/metabox-and-theme-option.php:626
+#: lib/metabox-and-theme-option.php:631 lib/metabox-and-theme-option.php:763
+msgid "Menu Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:156 lib/metabox-and-theme-option.php:632
+#: lib/metabox-and-theme-option.php:764
+msgid "Set the menu color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:163 lib/metabox-and-theme-option.php:638
+msgid "Menu Hover Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:164 lib/metabox-and-theme-option.php:639
+msgid "Set the menu hover color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:171 lib/metabox-and-theme-option.php:644
+#: lib/metabox-and-theme-option.php:649
+msgid "Menu Sticky Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:172 lib/metabox-and-theme-option.php:650
+msgid "Set the menu sticky color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:179 lib/metabox-and-theme-option.php:656
+msgid "Menu Sticky Hover Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:180 lib/metabox-and-theme-option.php:657
+msgid "Set the menu sticky hover color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:187 lib/metabox-and-theme-option.php:667
+msgid "Menu Dropdown Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:188 lib/metabox-and-theme-option.php:668
+msgid "Set the menu dropdown color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:195 lib/metabox-and-theme-option.php:674
+msgid "Menu Dropdown Hover Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:196 lib/metabox-and-theme-option.php:675
+msgid "Set the menu dropdown hover color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:203 lib/metabox-and-theme-option.php:681
+msgid "Menu Dropdown Hover Background Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:204
+msgid "Set the menu dropdown background color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:216
+msgid "Page Footer Option"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:222 lib/metabox-and-theme-option.php:1224
+msgid "Hide Footer ?"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:223 lib/metabox-and-theme-option.php:1225
+msgid "If you want do not show the footer you can set here by ( YES / NO )."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:229
+msgid "Footer Styleing"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:230
+msgid "If you need custom style in page footer you can style here."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:236 lib/metabox-and-theme-option.php:1238
+msgid "Footer Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:237
+msgid ""
+"Set the footer backgound color from here and select image. Note: if image "
+"and color you can use at a time ( if not found image automatically get the "
+"color.)"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:251 lib/metabox-and-theme-option.php:1252
+msgid "Footer Background Overlay"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:252 lib/metabox-and-theme-option.php:1253
+msgid ""
+"Upload a transparent image or cholse your color t set the footer background "
+"overlay"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:267 lib/metabox-and-theme-option.php:1267
+msgid ""
+"Set the background footer background overlay opacity input the max value 90 "
+"in decimel."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:274 lib/metabox-and-theme-option.php:1334
+msgid "Footer Bottom Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:275 lib/metabox-and-theme-option.php:1335
+msgid "Upload a new background image to set the footer bottom background."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:289 lib/metabox-and-theme-option.php:1277
+msgid "Footer Text Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:290 lib/metabox-and-theme-option.php:1278
+msgid "Set footer text color form here."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:297 lib/metabox-and-theme-option.php:1284
+msgid "Footer Hidding Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:298 lib/metabox-and-theme-option.php:1285
+msgid "Set footer footer hidding color form here."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:305 lib/metabox-and-theme-option.php:1291
+msgid "Footer links color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:306 lib/metabox-and-theme-option.php:1292
+msgid "Set the footer area link color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:313 lib/metabox-and-theme-option.php:1298
+msgid "Footer links Hover color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:314 lib/metabox-and-theme-option.php:1299
+msgid "Set the footer area link hover color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:326
+msgid "Page Custom Css"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:332 lib/metabox-and-theme-option.php:1452
+msgid "Write Custom Css Here"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:333
+msgid "Write custom css here with css selector."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:356
+msgid "Omnivus Options"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:362
+msgid "Omnivus WordPress Theme"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:362
+msgid " By QuomodoTheme"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:392
+msgid "Header Section"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:399 lib/metabox-and-theme-option.php:412
+msgid "Header Style"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:405
+msgid "Enable Header Style"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:406
+msgid "If you want to enable or disable header style you can set ( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:413
+msgid "Select the header style which you want to show on your website."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:430
+msgid "Top Bar"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:436
+msgid "Enable Topbar"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:437
+msgid "If you want to enable or disable topbar you can set ( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:443
+msgid "Phone Number"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:444
+msgid "Set the topbar contact phone number."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:451
+msgid "Email Address"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:452
+msgid "Set the topbar contact email address."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:459
+msgid "Enable Social"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:460
+msgid ""
+"If you want to enable or disable top bar social profile you can set ( YES / "
+"NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:475
+msgid "One Page Navigation Setting"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:480
+msgid "One Page Navigaton On ?"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:481
+msgid ""
+"If you want to enable or disable one page menu link effect it will be effect "
+"inside the page (#) links."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:486
+msgid "Menu Sticky"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:491
+msgid "Sticky Menu ?"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:492
+msgid ""
+"If you want to enable or disable menu sticky in header section you can set "
+"( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:497
+msgid "Menu Action Buttons"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:502
+msgid "Enable Search Button"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:503
+msgid ""
+"If you want to enable or disable search button in menu section you can set "
+"( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:509
+msgid "Enable OffCanvas Sidebar Button"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:510
+msgid ""
+"If you want to enable or disable offcanvas button in menu section you can "
+"set ( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:516
+msgid "Enable Curt Button"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:517
+msgid ""
+"If you want to enable or disable cart button in menu section you can set "
+"( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:523
+msgid "Enable Language Button"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:524
+msgid ""
+"If you want to enable or disable Language button in menu section you can set "
+"( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:530
+msgid "Enable Action Button"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:531
+msgid ""
+"If you want to enable or disable action button in menu section you can set "
+"( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:537
+msgid "Button Text"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:538
+msgid "Set the button text here"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:545
+msgid "Button Link"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:546
+msgid "Set the button link here"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:552
+msgid "Menu Width & Align"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:580 lib/metabox-and-theme-option.php:585
+#: lib/metabox-and-theme-option.php:713
+msgid "Menu Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:586 lib/metabox-and-theme-option.php:714
+msgid "Set the menu background form here."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:599 lib/metabox-and-theme-option.php:727
+msgid "Background Opacity"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:600 lib/metabox-and-theme-option.php:728
+msgid ""
+"Set the menu background opacity here use max value 99 and minimux value 1 in "
+"decimel."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:606 lib/metabox-and-theme-option.php:738
+msgid "Menu Sticky Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:607 lib/metabox-and-theme-option.php:739
+msgid "Set the menu sticky background form here."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:620 lib/metabox-and-theme-option.php:752
+msgid "Sticky Background Opacity"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:621 lib/metabox-and-theme-option.php:753
+msgid ""
+"Set the menu sticky background opacity here use max value 99 and minimux "
+"value 1 in decimel."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:662
+msgid "Menu Dropdown Color & Hover"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:682
+msgid "Set the dropdown background color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:687
+msgid "Menu Border"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:692
+msgid "Menu Border Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:693 lib/metabox-and-theme-option.php:807
+msgid "Set the menu border bottom color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:703
+msgid "Mobile Menu"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:708
+msgid "Mobile Menu Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:733
+msgid "Mobile Menu Sticky Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:758
+msgid "Mobile Menu Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:770
+msgid "Menu Active & Hover Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:771
+msgid "Set the menu item active &hover color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:777
+msgid "Menu Active Background Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:778
+msgid "Set the menu active background color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:783
+msgid "Mobile Menu Color & Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:788
+msgid " Menu Hambarger Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:789
+msgid "Set the menu hamberger background color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:795
+msgid "Sticky Menu Hambarger Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:796
+msgid "Set the menu hamberger color by color picker"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:801
+msgid "Mobile Menu Border"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:806
+msgid "Menu Bottom Border Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:816
+msgid "Logo Upload"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:821
+msgid "Main Image Logo"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:826
+msgid "Upload Main Logo"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:827
+msgid "Upload main logo width 180px and height 65px."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:829 lib/metabox-and-theme-option.php:837
+msgid "Note: Please use logo image max width: 250px and max height 100px."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:834
+msgid "Upload Sticky Logo"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:835
+msgid "Upload sticky logo width 180px and height 65px."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:841 lib/metabox-and-theme-option.php:846
+msgid "Text Logo Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:847 lib/metabox-and-theme-option.php:865
+msgid "Set the text logo color by color picker."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:853
+msgid "Text Logo Sticky Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:854 lib/metabox-and-theme-option.php:872
+msgid "Set the text logo sticky color by color picker."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:859
+msgid "Mobile Text Logo Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:864
+msgid "Text Logo Color On Mobile"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:871
+msgid "Text Logo Sticky Color On Mobile"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:905
+msgid "Blog Page Title"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:906
+msgid "Set the main blog page title here like ( Our Blog )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:919
+msgid "Blog Page Overlay"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:920
+msgid ""
+"Upload a transparent image or cholse your color t set the blog page header "
+"overlay"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:933
+msgid "Blog Page Overlay Opacity"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:934
+msgid "Set the main blog page overlay opacity max value is 90 in decimel"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:940
+msgid "Header Text Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:941
+msgid ""
+"Set the header text color by color picker. NOTE: You can also change header "
+"text color form customizer panel."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:947
+msgid "Header Text Align"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:948
+msgid "Set the header text alignment ( Left / Roght / Center )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:959
+msgid "Blog & Pages Content Spaceing Top / Bottom"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:960
+msgid ""
+"Set the space in blog and page content. It will be appeard in top and bottom."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:966
+msgid "Blog Excerpt Word"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:967
+msgid ""
+"Set the words that how many words you want to show in every blog post item."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:973
+msgid "Sticky Sidebar ?"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:974
+msgid ""
+"You can set sitcky blog page sidebar here. just set ( YES / NO ) for off OR "
+"on."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:980
+msgid "Show Dropcaps ?"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:981
+msgid ""
+"If you on dropcaps it will be appear in single blog page. just set ( YES / "
+"NO ) for off OR on."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:990
+msgid "Post & Pages Settings"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:995
+msgid "Single Post Setting"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1000
+msgid "Enable Post Custom Barner Title"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1001
+msgid ""
+"If you want to enable or disable post barner title to post title you can set "
+"( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1007
+msgid "Post Barner Title"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1008 lib/metabox-and-theme-option.php:1027
+msgid "Set your preferred custom barner title."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1009
+msgid "News Details"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1014
+msgid "Single Portfolio Setting"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1019
+msgid "Enable Portfolio Custom Barner Title"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1020
+msgid ""
+"If you want to enable or disable portfolio barner title to portfolio title "
+"you can set ( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1026
+msgid "Portfolio Barner Title"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1028
+msgid "Work Details"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1033
+msgid "404 Error Page Setting"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1038
+msgid "Upload Error Page Image"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1039
+msgid "Upload error page image width 1280px and height 800px or larger."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1044
+msgid "404 Page Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1045
+msgid ""
+"Upload a new background image or select color to set the error page "
+"background."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1058
+msgid "404 Error Page Text"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1059
+msgid "Set your 404 error title."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1060
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1065
+msgid "Enable 404 Search Button"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1066
+msgid ""
+"If you want to enable or disable 404 page button you can set ( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1075
+msgid "Preloader ON / OFF"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1081
+msgid "Enable Preloader"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1082
+msgid "If you want to enable or disable preloader you can set ( YES / NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1088
+msgid "Select Preloader Style"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1089
+msgid "You can set specifc preloader style in every page form here."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1127
+msgid "Preloader Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1128
+msgid ""
+"Upload a new background image or select color to set the preloader "
+"background."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1141
+msgid "Preloader Text Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1142
+msgid "Set the preloader text color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1151
+msgid "Scroll Top Button"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1157
+msgid "Enable Scroll Top"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1158
+msgid ""
+"If you want to enable or disable scroll to top button you can set ( YES / "
+"NO )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1164
+msgid "Scroll Top Animation"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1165
+msgid "You can set specifc eassing animation style in every page form here."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1207
+msgid "Footer Section"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1214
+msgid "Footer Color & Background"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1219
+msgid "Footer Settings"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1231
+msgid "Sticky Footer ?"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1232
+msgid "You can set footer sticky here. just set ( YES / NO )."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1239
+msgid "Upload a new background image to set the footer background."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1272
+msgid "Footer Text & Link Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1309
+msgid "Footer Bottom Style"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1315
+msgid "Select Footer Bottom Style"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1316
+msgid "You can chose and select footer bottom type here.."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1327
+msgid "Footer Bottom Space"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1328
+msgid "Set the space ( top / bottom ) in footer bottom."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1348
+msgid "Footer Bottom Border Height"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1349
+msgid "Set the footer bottome border height in decimel. ( default is 2 ) "
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1355
+msgid "Footer Bottom Border Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1356
+msgid "Set footer bottom border color form here."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1366 lib/metabox-and-theme-option.php:1372
+msgid "Footer Copyright"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1373
+msgid "Set the footer copyright text"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1390
+msgid "Social Section"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1396
+msgid "Add Social Bookmark"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1397
+msgid "Add New Bookmark"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1398
+msgid ""
+"Set the social bookmark icon and link here. Esay to use it just click the "
+"add icon button and search your social icon and set the url for the profile ."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1403
+msgid "Social Icon"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1404
+msgid ""
+"Set the social profile icon like ( facebook, twitter, linkedin, youtube "
+"ect. )"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1410
+msgid "Profile Url"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1411
+msgid ""
+"Type the social profile url lik http://facebook.com/yourpage. also you can "
+"add (facebook, twitter, linkedin, youtube etc.)"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1419
+msgid "Enable Footer Social"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1420
+msgid "Set the footer social hide or not."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1426
+msgid "Footer Social Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1427
+msgid "Set the footer social bookmark color from here."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1434
+msgid "Footer Social Hover Color"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1435
+msgid "Set the footer social bookmark hover color from here."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1446
+msgid "Custom Css"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1453
+msgid ""
+"Write custom css here with css selector. this css will be applied in all "
+"pages and post."
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1461
+msgid "Backup Options"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1467
+msgid "Backup Your All Options"
+msgstr ""
+
+#: lib/metabox-and-theme-option.php:1468
+msgid "If you want to take backup your option you can backup here."
+msgstr ""
+
+#: searchform.php:13
+msgid "Search..."
+msgstr ""
+
+#: template-parts/content/content-audio.php:41
+#: template-parts/content/content-gallery.php:42
+#: template-parts/content/content-quote.php:25
+#: template-parts/content/content-video.php:41
+#: template-parts/content/content.php:37
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content/content-none.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/content-page.php:27
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/header/header-5.php:58
+msgid "Call Us"
+msgstr ""
+
+#: template-parts/header/header-5.php:65
+msgid "Mail To"
+msgstr ""

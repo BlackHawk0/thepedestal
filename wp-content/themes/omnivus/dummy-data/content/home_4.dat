@@ -1,0 +1,43 @@
+a:4:{s:8:"template";s:7:"omnivus";s:4:"mods";a:3:{i:0;b:0;s:18:"nav_menu_locations";a:1:{s:8:"mainmenu";i:30;}s:18:"custom_css_post_id";i:644;}s:7:"options";a:2:{s:9:"site_icon";s:4:"2022";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:828:"/*===============
+ * Common
+ * TechBird
+===============*/
+.intro-thumb::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 400px solid #0c59db;
+    border-left: 400px solid transparent;
+    right: -20px;
+    bottom: -20px;
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.intro-thumb::before {
+    border-bottom: 0 solid #0c59db;
+    border-left: 0 solid transparent;
+		right:0;
+}
+}
+@media (max-width: 767px){
+	.intro-thumb::before {
+    border-bottom: 0 solid #0c59db;
+    border-left: 0 solid transparent;
+}
+}
+/*===============
+ * Common
+ * TechBird
+===============*/
+/*===============
+ * About
+ * TechBird
+===============*/
+.about-page.intro-thumb::before {
+    border-left:0px;
+    border-right: 400px solid transparent;
+    left: -15px;
+}
+.overflow {
+	overflow: hidden;
+}";}

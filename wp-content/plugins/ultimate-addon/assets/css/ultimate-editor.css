@@ -1,0 +1,20 @@
+#elementor-panel-category-ultimate-addons {
+    font-weight: 600;
+}
+.elementor-element .icon {
+  position: relative;
+}
+.uladdon-omnivus::after {
+  content: "U";
+  font-size: 10px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  opacity: 0.4;
+  border: 1px solid #0000009e;
+  border-radius: 50%;
+  line-height: 14px;
+  width: 14px;
+  height: 14px;
+  text-align: center;
+}

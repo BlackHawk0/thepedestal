@@ -1,0 +1,159 @@
+<?php
+/**
+ * Add Widget_Ticker widget.
+ */
+class Widget_Ticker extends WP_Widget {
+
+    /**
+     * Register widget with WordPress.
+     *
+     **/
+    function __construct() {
+        parent::__construct(
+			'post_ticker', // Base ID
+			esc_html__('Post Ticker', 'themecore'), // Name
+			array( 'description' => esc_html__( 'Show post feed with news ticker style to adding this widget.', 'themecore' ), ) // Args
+		);
+    }
+
+    /**
+	 * Front-end display of widget.
+	 *
+	 * @see WP_Widget::widget()
+	 *
+	 * @param array $args     Widget arguments.
+	 * @param array $instance Saved values from database.
+	 */
+	public function widget( $args, $instance ) {
+
+		$rand = rand(54564,54648);
+
+		$title        = apply_filters( 'widget_title', $instance['title'] );
+		$total_post   = $instance['total_post'];
+		$display_date = $instance[ 'display_date' ];
+		wp_enqueue_style( 'easyTicker' );
+		wp_enqueue_script( 'easyTicker' );
+		$script = '
+			;(function($){
+				$(function(){
+					$("#ticker-post-'.$rand.'").easyTicker({
+						direction: "up",
+						easing: "swing",
+						speed: "slow",
+						interval: 2000,
+						height: "auto",
+						visible: 3,
+						mousePause: 1,
+						controls: {
+							up: ".tricker_left-'.$rand.'",
+							down: ".tricker_right-'.$rand.'",
+							toggle: "",
+							playText: "",
+							stopText: "",
+						}
+					});
+				})
+			})(jQuery);
+		';
+		wp_add_inline_script( 'themecore', $script );
+
+		echo $args['before_widget'];
+		if ( ! empty( $title ) ) {
+			echo $args['before_title'] . $title . $args['after_title'];
+		}
+		?>
+		<div class="tricker-nvigation">
+			<div class="tricker_right-<?php echo $rand; ?>"><i class="ti ti-arrow-circle-left"></i></div>
+			<div class="tricker_left-<?php echo $rand; ?>"><i class="ti ti-arrow-circle-right"></i></div>			
+		</div>
+		<div id="ticker-post-<?php echo $rand; ?>" class="ticker-post">
+			<ul>
+			<?php
+			$query_args = array(
+				'post_type' => 'post',
+				'posts_per_page'  => $total_post,
+				'ignore_sticky_posts' => 1,
+			);		
+			$posts = new WP_Query( $query_args );
+			while ( $posts->have_posts() ) : $posts->the_post(); ?>
+				<li>
+					<?php the_post_thumbnail( 'thumbnail'); ?>
+					<?php if( $display_date == "on" ): ?>
+					<span class="post-date"><i class="ti ti-calendar"></i> <?php echo get_the_date(); ?></span>
+					<?php endif; ?>
+					<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+				</li>
+			<?php endwhile; ?>
+			</ul>
+		</div>
+		<?php
+		echo $args['after_widget'];
+	}
+
+    /**
+	 * Back-end widget form.
+	 *
+	 * @see WP_Widget::form()
+	 *
+	 * @param array $instance Previously saved values from database.
+	 */
+	public function form( $instance ) {
+
+		if ( isset( $instance[ 'title' ] ) ) {
+			$title = $instance[ 'title' ];
+		}else {
+			$title = __( 'Ticker Posts', 'themecore' );
+		}
+
+		if ( isset( $instance[ 'total_post' ] ) ) {
+			$total_post = $instance[ 'total_post' ];
+		}else {
+			$total_post = '5';
+		}
+
+		if ( isset( $instance[ 'display_date' ] ) ) {
+			$display_date = $instance[ 'display_date' ];
+		}else {
+			$display_date = 'off';
+		}
+		?>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:','themecore' ); ?></label> 
+			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
+		</p>
+		<p>
+			<label for="<?php echo $this->get_field_id('total_post'); ?>"><?php _e( 'Number of posts to show:', 'themecore' ); ?></label>
+			<input class="tiny-text" id="<?php echo $this->get_field_id('total_post'); ?>" name="<?php echo $this->get_field_name('total_post'); ?>" type="number" min="1" step="1" size="3" value="<?php echo esc_attr( $total_post ) ?>">
+		</p>
+		<p>
+			<input class="checkbox" type="checkbox" id="<?php echo $this->get_field_id( 'display_date' ); ?>" name="<?php echo $this->get_field_name('display_date'); ?>"
+				<?php if (!empty($instance['display_date'])) { echo "checked='checked'";} ?>
+			>
+			<label for="<?php echo $this->get_field_id( 'display_date' ); ?>"><?php _e( 'Display post date?', 'themecore' ); ?></label>
+		</p>
+		<?php 
+	}
+
+    /**
+	 * Sanitize widget form values as they are saved.
+	 *
+	 * @see WP_Widget::update()
+	 *
+	 * @param array $new_instance Values just sent to be saved.
+	 * @param array $old_instance Previously saved values from database.
+	 *
+	 * @return array Updated safe values to be saved.
+	 */
+	public function update( $new_instance, $old_instance ) {
+		$instance = array();
+		$instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
+		$instance['total_post'] = ( ! empty( $new_instance['total_post'] ) ) ? strip_tags( $new_instance['total_post'] ) : '';
+		$instance['display_date'] = ( ! empty( $new_instance['display_date'] ) ) ? strip_tags( $new_instance['display_date'] ) : '';
+
+		return $instance;
+	}
+}
+function themecore_post_ticker(){
+	register_widget( 'Widget_Ticker' );
+}
+add_action( 'widgets_init', 'themecore_post_ticker' );

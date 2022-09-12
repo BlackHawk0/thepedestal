@@ -1,0 +1,113 @@
+.wrapper {
+    width: 960px;
+    margin: 150px auto;
+}
+
+.demof {
+    border: 1px solid #ccc;
+    margin: 25px 0;
+}
+
+.demof ul {
+    padding: 0;
+    list-style: none;
+}
+
+.demof li {
+    padding: 20px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.demof li.odd {
+    background: #fafafa;
+}
+
+.demof li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.demof img {
+    float: left;
+    width: 177px;
+    margin: 5px 15px 0 0;
+}
+
+.demof a {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #06f;
+}
+
+.demof p {
+    margin: 15px 0 0;
+    font-size: 14px;
+}
+
+.demo3 {
+    font-family: Arial, sans-serif;
+    border: 1px solid #C20;
+    margin: 50px 0;
+    font-style: italic;
+    position: relative;
+    padding: 0 0 0 80px;
+    box-shadow: 0 2px 5px -3px #000;
+    border-radius: 3px;
+}
+
+.demo3:before {
+    content: "Latest News";
+    display: inline-block;
+    font-style: normal;
+    background: #C20;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.demo3:after {
+    content: '';
+    display: block;
+    top: 0;
+    left: 80px;
+    background: linear-gradient(#FFF, rgba(255, 255, 255, 0));
+    height: 20px;
+}
+
+.demo3 ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.demo5 {
+    border: 2px solid #FF3333;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 500px;
+    -webkit-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.demo5 ul {
+    padding: 0;
+}
+
+.demo5 ul li {
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #FF3333;
+    border-radius: 10px;
+    list-type: none;
+    margin: 0;
+}
+
+.et-run {
+    background-color: #0cf;
+    color: white;
+    border: 1px solid black;
+}

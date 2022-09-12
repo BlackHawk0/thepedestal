@@ -1,0 +1,9 @@
+.m-p-body .kc-param-row select {width: 100% !important;}
+ .pika-single.is-bound {
+  z-index: 1000019;
+}
+.cs-element-select-preloader-style img,.cs-element-select-preloader-style svg {
+    width: 120px;
+    max-height: 120px;
+    min-height: 120px;
+}

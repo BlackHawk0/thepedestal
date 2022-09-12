@@ -1,0 +1,72 @@
+
+---Downloaded files---
+The import files for: Home V2 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://127.0.0.1/suetech
+Data file = C:\xampp\htdocs\suetech/wp-content/uploads/2022/08/demo-content-import-file_2022-08-02__04-29-39.xml
+Widget file = C:\xampp\htdocs\suetech/wp-content/uploads/2022/08/demo-widgets-import-file_2022-08-02__04-29-39.json
+Customizer file = C:\xampp\htdocs\suetech/wp-content/uploads/2022/08/demo-customizer-import-file_2022-08-02__04-29-39.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Imported
+About - About Me - Imported
+Recent Posts - Recent Posts - Imported
+Recent Post With Thumbnail - Popular Feeds - Imported
+Categories - No Title - Imported
+Social Profiles - Never Miss News - Imported
+Tag Cloud - Popular Tags - Imported
+
+Footer Sidebar 1 : 
+
+Image - No Title - Imported
+Custom HTML - No Title - Imported
+
+Footer Sidebar 2 : 
+
+Navigation Menu - Pages - Imported
+
+Footer Sidebar 3 : 
+
+Custom HTML - Working Hours - Imported
+
+Footer Sidebar 4 : 
+
+MailChimp Subscriber - Get Daily Update - Imported
+Social Profiles - Follow Us On - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+Thank You! for installing demo ( Home V2 ).
