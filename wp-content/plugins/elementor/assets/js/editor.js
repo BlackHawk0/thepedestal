@@ -1,4 +1,4 @@
-/*! elementor - v3.7.4 - 31-08-2022 */
+/*! elementor - v3.7.6 - 15-09-2022 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -20199,6 +20199,12 @@ var Paste = /*#__PURE__*/function (_$e$modules$editor$do) {
         data.forEach(function (model) {
           switch (model.elType) {
             case 'container':
+              {
+                // Push the cloned container to the 'document'.
+                result.push(_this.pasteTo([targetContainer], [model]));
+              }
+              break;
+
             case 'section':
               {
                 // If is inner create section for `inner-section`.
@@ -20249,13 +20255,25 @@ var Paste = /*#__PURE__*/function (_$e$modules$editor$do) {
 
             default:
               {
-                // In case it widget:
-                var target; // On trying to paste widget on section, the paste should be at the first column.
+                // The 'default' case is widget.
+                var target;
 
                 if ('section' === targetContainer.model.get('elType')) {
+                  // On trying to paste widget on section, the paste should be at the first column.
                   target = [targetContainer.view.children.findByIndex(0).getContainer()];
+                } else if ('container' === targetContainer.model.get('elType')) {
+                  target = [targetContainer];
+                } else if (elementorCommon.config.experimentalFeatures.container) {
+                  // If the container experiment is active, create a new wrapper container.
+                  target = $e.run('document/elements/create', {
+                    container: targetContainer,
+                    model: {
+                      elType: 'container'
+                    }
+                  });
+                  target = [target];
                 } else {
-                  // Else, create section with one column for element.
+                  // Else, create section with one column for the element.
                   var _section2 = $e.run('document/elements/create', {
                     container: targetContainer,
                     model: {
@@ -20265,7 +20283,7 @@ var Paste = /*#__PURE__*/function (_$e$modules$editor$do) {
                     options: {
                       at: ++index
                     }
-                  }); // Create the element in the column that just was created.
+                  }); // Create the element inside the column that just was created.
 
 
                   target = [_section2.view.children.first().getContainer()];
@@ -36114,7 +36132,7 @@ var WidgetView = _baseWidget.default.extend({
     self.$el.imagesLoaded().always(function () {
       setTimeout(function () {
         // Since 'outerHeight' will not handle hidden elements, and mark them as empty (e.g. nested tabs).
-        var $widgetContainer = self.$el.children('.elementor-widget-container'),
+        var $widgetContainer = self.$el.children('.elementor-widget-container').length ? self.$el.children('.elementor-widget-container') : self.$el,
             shouldHandleEmptyWidget = $widgetContainer.is(':visible') && !$widgetContainer.outerHeight();
 
         if (shouldHandleEmptyWidget) {

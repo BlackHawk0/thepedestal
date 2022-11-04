@@ -4,7 +4,7 @@
  * Plugin Name:       Social Chat
  * Description:       Social Chat allows your visitors to contact you or your team through WhatsApp chat with a single click.
  * Plugin URI:        https://quadlayers.com/portfolio/whatsapp-chat/
- * Version:           6.1.0
+ * Version:           6.1.1
  * Author:            QuadLayers
  * Author URI:        https://quadlayers.com
  * License:           GPLv3
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'QLWAPP_PLUGIN_NAME', 'Social Chat' );
-define( 'QLWAPP_PLUGIN_VERSION', '6.1.0' );
+define( 'QLWAPP_PLUGIN_VERSION', '6.1.1' );
 define( 'QLWAPP_PLUGIN_FILE', __FILE__ );
 define( 'QLWAPP_PLUGIN_DIR', __DIR__ . DIRECTORY_SEPARATOR );
 define( 'QLWAPP_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );

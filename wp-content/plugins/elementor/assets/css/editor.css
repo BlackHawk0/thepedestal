@@ -1,4 +1,4 @@
-/*! elementor - v3.7.4 - 31-08-2022 */
+/*! elementor - v3.7.6 - 15-09-2022 */
 .elementor-control-unit-1 {
   width: 27px;
 }
@@ -1260,6 +1260,20 @@ select {
 .elementor-panel #elementor-panel__editor__help__link:hover i:after {
   background: #fff;
 }
+.elementor-panel .elementor-button.e-logo-maker {
+  color: #5cb85c;
+  padding: 7px 21px;
+  font-style: normal;
+  margin-top: 7px;
+  width: 100%;
+  text-align: center;
+  background: white;
+  border: 1px solid transparent;
+  outline: 1px solid #5cb85c;
+}
+.elementor-panel .elementor-button.e-logo-maker:hover {
+  border-color: #5cb85c;
+}
 .elementor-panel #elementor-panel-footer {
   position: absolute;
   bottom: 0;
@@ -1915,6 +1929,7 @@ body:not(.elementor-device-mobile) .elementor-control.elementor-control-responsi
 }
 .elementor-label-block > .elementor-control-content > .elementor-control-field > .elementor-control-input-wrapper {
   width: 100%;
+  max-width: 100%;
   margin-top: 10px;
 }
 .elementor-label-block > .elementor-control-content > .elementor-control-field > .elementor-control-input-wrapper > .elementor-choices label {

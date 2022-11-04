@@ -1,4 +1,4 @@
-/*! elementor - v3.7.4 - 31-08-2022 */
+/*! elementor - v3.7.6 - 15-09-2022 */
 .elementor-control-unit-1 {
   width: 27px;
 }
@@ -521,6 +521,7 @@ body:not(.elementor-device-mobile) .elementor-control.elementor-control-responsi
 }
 .elementor-label-block > .elementor-control-content > .elementor-control-field > .elementor-control-input-wrapper {
   width: 100%;
+  max-width: 100%;
   margin-top: 10px;
 }
 .elementor-label-block > .elementor-control-content > .elementor-control-field > .elementor-control-input-wrapper > .elementor-choices label {

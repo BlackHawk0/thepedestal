@@ -2,11 +2,10 @@
 Contributors: quadlayers
 Donate link: https://quadlayers.com/portfolio/whatsapp-chat/
 Tags: whatsapp, whatsapp business, click to chat, whatsapp chat, whatsapp support, whatsapp group, whatsapp message, whatsapp woocommerce, whatsapp wordpress, whatsapp floating button, whatsapp icon,  whats app, wame, wp social chat, join chat, wp whatsapp
-
 Requires at least: 4.6
 Requires PHP: 5.6
 Tested up to: 6.0
-Stable tag: 6.1.0
+Stable tag: 6.1.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -132,6 +131,9 @@ Don't use: +001-(555)1234567
 * Brazilian Portuguese (thanks to [Dionizio Bach](@djio))
 
 == Changelog ==
+
+= 6.1.1 =
+* Fix. WhatsApp 
 
 = 6.1.0 =
 * Fix. WhatsApp premium compatibility
